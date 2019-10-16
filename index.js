@@ -1,6 +1,7 @@
 const express = require('express')
-const path = require('path')
-const PORT = process.env.PORT || 5000
+// const path = require('path')
+import path from 'path';
+const PORT = 5001
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
